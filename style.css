@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: "fredoka";
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #00ffff 0%, #0000ff 100%);
+}
+
+#boad{
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 70%;
+    height: 90%;
+    background-color: antiquewhite;
+}
+
+#top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 12%;
+    font-size: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: linear-gradient(to bottom, #006600 0%, #00ff00 100%);
+}
+
+#down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 85%;
+    background-color: bisque;
+
+}
+
+#down h1{
+    font: 25px;
+    color: rgb(4, 97, 97);
+}
+
+
+.bubbles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;  
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #003300 0%, #00ff00 100%);
+}
+
+.box{
+    padding: 5px 5px;
+    margin-left: 20px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 900;
+    background: linear-gradient(to bottom, #00ff00 0%, #c2c1c1 100%);
+    border: 4px solid rgb(5, 117, 10);
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
